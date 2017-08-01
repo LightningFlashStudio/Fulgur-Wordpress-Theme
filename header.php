@@ -33,8 +33,8 @@
      					        <span class="icon-bar"></span>
      					        <span class="icon-bar"></span>
      					        <span class="icon-bar"></span>
-     					      </button>
-     					      <a class="navbar-brand pull-left" href="/"><span class="glyphicon glyphicon-flash"></span></a>
+ 					          </button>
+     					      <a class="navbar-brand pull-left" href="#"><span class="glyphicon glyphicon-flash"></span></a>
      					    </div>
      						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
      							<?php
@@ -52,10 +52,10 @@
      				</div>
 
      			</div>
-                
-    <?php if ( get_header_image() ) : ?> //Conditional for Header Image/Text.
-            <img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>"  alt= "<?php echo esc_attr ( get_bloginfo( 'name', 'display') );?> "/>
-    <?php else: ?>
+
+     <!-- <?php if ( get_header_image() ) : ?> //Conditional for Header Image/Text. -->
+            <img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>"  alt= "<?php echo esc_attr ( get_bloginfo( 'name', 'display') );?>  "/>
+    <!-- <?php endiflse: ?> -->
 
 
 
